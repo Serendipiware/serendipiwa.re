@@ -23,7 +23,7 @@ body {
     overflow: hidden;
 }
 #blur {
-    background-image: url("../images/blur.svg");
+    background-image: url("../images/blur.webp");
     background-size: cover;
     width: 800px;
     height: 800px;
