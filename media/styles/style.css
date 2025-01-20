@@ -1,14 +1,17 @@
 @font-face {
     font-family: "Baloo";
     src: url("../fonts/Baloo-Regular.ttf");
+    font-display: swap;
 }
 @font-face {
     font-family: "Borel";
     src: url("../fonts/Borel-Regular.ttf");
+    font-display: swap;
 }
 @font-face {
     font-family: "Inter";
     src: url("../fonts/Inter_18pt-Regular.ttf");
+    font-display: swap;
 }
 body {
     background-color: #FFF4F2;
@@ -21,6 +24,7 @@ body {
     transition-property: background-color;
     transition-duration: 0.3s;
     overflow: hidden;
+    font-family: 'defaultFont', Arial, Helvetica, sans-serif;
 }
 #blur {
     background-image: url("../images/blur.webp");
